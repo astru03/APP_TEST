@@ -12,5 +12,5 @@ app.get("/", (req, res) => { res.sendFile(__dirname + "/public/startseite.html")
 
 //Listener
 app.listen(port, () => {
-    console.log(`App listening at http://localhost:${port}`)
+    console.log(`App listening at http://54.185.59.127:${port}`)
   })
