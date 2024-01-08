@@ -1,6 +1,6 @@
 version: "3.3"
 services:
-  APP_TEST:
+  app_test:
     build: .
     environment:
       - TZ=Etc/UTC
