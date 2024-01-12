@@ -8,9 +8,9 @@ RUN npm install
 # Copy app code source from our local folder into docker /app working directory
 COPY . .
 # envirementVariable
-ENV PORT=3000
+ENV PORT=8081
 # Install app on a given port
-EXPOSE 3000
+EXPOSE 8081
 # start app
 CMD ["npm", "start"]
 

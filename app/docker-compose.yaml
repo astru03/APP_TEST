@@ -7,5 +7,5 @@ services:
       - DEBIAN_FRONTEND=noninteractive
     container_name: app_test
     ports:
-      - "3000:3000"
+      - "8081:8081"
     restart: always
